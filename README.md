@@ -18,7 +18,5 @@ I am Nanda Prabhu  B, a 19 year old B.E CSE  student from Sathyabama Institute o
 </div>
 
 
----
- > This README.md was generated using <a href='https://profile-readme-generator.herokuapp.com/' target='_blank'>https://profile-readme-generator.herokuapp.com/</a>
             
         
