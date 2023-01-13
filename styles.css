@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root {
+	--primary-color: #3a4052;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;    
+}
+
+nav, #section-1 {
+    color: #fff;
+    background-color: #0d1117;
+}
+
+.blue-gradient {
+    /*background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%); */
+    background: linear-gradient(90deg,#ffe57f 2.34%,#ff7170 100.78%);
+}
+
+.orange_text-gradient {
+    background: linear-gradient(90deg,#ff7170 2.34%,#ffe57f 100.78%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+
+    background-clip: border-box;
+    -webkit-background-clip: text;
+  }
+
+/********* nav ***********/
+
+/* nav {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    padding: 1rem 5rem; 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10px);
+    border: 2px transparent;
+    background-clip: padding-box;
+}
+
+.logo img {
+    width: 8rem;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.2rem;
+} */
+
+/* NAV START */
+nav {
+    /* box-shadow: 5px 2px 4px 0 rgba(0,0,0,.2); */
+    background-color: var(--OFF-BLACK);
+    color: var(--OFF-WHITE);
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+    /* height: 100px; */
+    top: 0px;
+    margin-top: 0px;
+    z-index: 1000;
+}
+
+nav h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    position: fixed !important;
+}
+
+.nav-item {
+    padding: 0 1rem;
+    font-size: 18px;
+}
+
+.nav-container h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-size: 39px; */
+}
+
+
+
+/**********************  Section-1   **************************/
+
+#section-1 {
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+	/* align-items: right; */
+	justify-content: center;
+	/* text-align: center;  */
+    padding: 0 20px;
+}
+
+.content {
+    z-index: 100;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.content button {
+    margin: 2rem;
+    padding: 0.8rem 1rem;
+    /* background: transparent;*/
+    color: #fff; 
+    /* border-radius: 70% 3px; */
+    border-radius: 65px;
+    border: none;
+    width: 150px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.6s;
+            /* transition: transform 50ms ease; */
+    font-weight: 500;
+    /* opacity: 0.7; */
+}
+ 
+/* .content button:hover {
+    transform: scale(0.98);
+    text-decoration: underline;
+    background-color: rgb(237, 237, 237);
+    color: black;
+    transition: 0.1s;
+         transform: translate(0px,-3px); 
+} */
+
+.back-video {
+    z-index: -111;
+    pointer-events: none; 
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    /* background: var(--primary-color) url('images/cover.jpg') no-repeat center center/cover; */
+
+    /* background: url('images/cover.jpg') no-repeat center center/cover; */
+    background: url('images/home-cover.jpg') no-repeat center center/cover;
+
+    background-position: center center;
+
+}
+
+.back-video video {
+    pointer-events: none; 
+    z-index: -111;
+
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.back-video:after {
+    content: '';
+    z-index: -111;
+    pointer-events: none; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);   
+}
+
+
+.hi {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.about {
+    background-color: #f9f9fd !important;
+    /* background-color: #FEFBF6; */
+    color: #000;
+}

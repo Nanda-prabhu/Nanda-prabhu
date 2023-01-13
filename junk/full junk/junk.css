@@ -1,0 +1,37 @@
+a {
+    font-size: 2em;
+    transition: transform .3s ease-out;
+    display: inline-block;
+  }
+  a:hover {
+    transform: translate(0, -15px);
+  }
+
+  .jump {
+    transform: translate(0, -130px);
+    transition: 0.3s;
+  }
+
+  img {
+    margin-top: 5rem;
+    transition: 0.8s;
+  }
+
+  .dark {
+    background-color: rgb(18, 15, 33);
+    color: #fff;
+    transition: 0.5s;
+  }
+
+
+
+  
+  /* .jump:hover {
+    transform: translate(0, -30px);
+  } */
+
+
+  /* .jump {
+    transform: scaleY(1.5);
+    
+  } */

@@ -1,0 +1,126 @@
+Hi, there!
+
+    I'm a pythoneer and a web developer.
+
+
+/* 
+.text {
+    position: relative;
+    color: rgb(231, 255, 12); 
+    color: #F05454;
+    color: #E0BB20;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.first-txt {
+    color: #fff;
+}
+
+.sec-txt::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #010718 ;
+    border-left: 2px solid #fff;
+    background-color: transparent ;
+    border-left: 2px solid #E0BB20;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+ */
+
+
+
+
+
+
+/**********************  Section-2 ****************************/
+
+/* .section-2 {
+    height: 10rem;
+    width: 100%;
+    background-color: var(--primary-color);
+} */
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* .hero {
+    position: relative;
+    background: url(https://placekitten.com/1200/800);
+    background-color: rgb(148, 140, 140);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    filter: brightness(200%);
+}
+
+.hero h1 {
+    color: #fff;
+    background-color: rgb(119, 119, 119);
+} */
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="section-2">
+        <div class="content-2">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quod minima vero aliquid eius optio, doloremque
+                iste quos fugit at atque pariatur consectetur est praesentium incidunt veniam suscipit cum libero?
+                Praesentium, eius illo. Facilis laudantium, sit esse atque debitis architecto, id tenetur sapiente a, temporibus
+                aperiam quisquam. Labore adipisci voluptas eum veritatis iusto doloremque similique voluptatibus doloribus fugiat,
+                corporis laboriosam.
+                Animi sunt excepturi natus odio, libero obcaecati molestias modi, consequatur voluptas rem minima? Dolorem fugit
+                aperiam saepe assumenda amet rerum, sequi nemo fugiat nobis vero nam maxime minus ab rem.
+                Corporis hic non ipsam reiciendis cum expedita eos, impedit totam quam similique commodi aut. Eveniet, molestias
+                excepturi. Sequi veniam corrupti aliquam iusto totam voluptas, ad aperiam earum. Nostrum, a magnam?
+                Rem rerum at ipsam, quisquam hic similique nemo deleniti corrupti impedit tempore expedita vel, cumque mollitia,
+                itaque obcaecati est modi odio accusantium! Nulla sunt veritatis officiis aliquam esse at deserunt!
+            </p>
+
+        </div>
+    </section> -->
+
+
+
+
+    <!-- <div class="hero">
+        <h1>I'm Nanda Prabhu</h1>
+    </div>
+
+    <h1>I'm Nanda Prabhu</h1>
+    <h1>I'm Nanda Prabhu</h1>
+    <h1>I'm Nanda Prabhu</h1> -->
+
+
+    <!-- <section id="s2" style="color: #000;">
+        <div class="d2">
+            <p>hi tghere</p>
+        </div>
+    </section> -->
