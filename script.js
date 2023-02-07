@@ -3,6 +3,11 @@ $('#section-1').ripples({
     perturbance: 0.05,
 });
 
+window.onscroll = () => {
+    const nav = document.querySelector('#navbar');
+    if(this.scrollY <= 700) nav.className = 'navbar navbar-expand-lg navbar-dark'; else nav.className = 'scroll navbar navbar-expand-lg navbar-dark';
+  };
+
 // new kursor({
 //     type: 4,
 //     removeDefaultCursor: false,
