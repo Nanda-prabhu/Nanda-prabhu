@@ -31,9 +31,15 @@
 
 <p align="center"><img align="center" width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=nanda-prabhu&" alt="nanda-prabhu" /></p>
 
+<p>----------</p>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nanda-prabhu&show_icons=true&locale=en&layout=compact" alt="nanda-prabhu" /></p>
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nanda-prabhu&show_icons=true&locale=en" alt="nanda-prabhu" /></p>
 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nanda-prabhu&" alt="nanda-prabhu" /></p>
+
+<p>----------</p>
 
 <!--             
                 
